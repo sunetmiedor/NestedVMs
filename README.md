@@ -7,6 +7,8 @@
 
 -make vm be cloned recursively
 
+-save VM hostname, username, ip address for each child
+
 -route network trafic
 
 ## sunet:
