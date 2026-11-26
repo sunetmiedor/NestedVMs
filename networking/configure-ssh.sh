@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #get arguments
 CHILD_USER="$1"
 CHILD_IP="$2"
