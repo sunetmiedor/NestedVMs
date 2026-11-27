@@ -25,7 +25,8 @@ EOF
 
 done < [PROJECT_DIRECTORY]/children.txt
 
-#close pracket from server block
+#close bracket from server block
 echo "}" >> "$CONFIG_FILE"
 
+#apply config
 systemctl reload nginx
