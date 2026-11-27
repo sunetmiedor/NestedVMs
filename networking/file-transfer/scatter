@@ -1,12 +1,12 @@
 #check for missing args
-if [[ $# -ne 2]]; then
+if [[ $# -ne 2 ]]; then
     echo "Missing arguments: scatter <file> <destination_directory>"
     exit 1
 fi
 
 #discover and save child list
 ./discover-vms.sh > /tmp/child-tree.txt 
-CHILD_TREE = "/tmp/child-tree.txt"
+CHILD_TREE="/tmp/child-tree.txt"
 FILE_TO_TRANSFER="$1"
 DESTINATION_DIRECTORY="$2"
 
